@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>The title</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="script.js" type='text/javascript'></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h1>Let's play "BR3AK TH3 C0D3"</h1>
+		<img id="reward" src="Resources/WEKwE.gif" hidden>
+		<p>Input your guesses and then hit submit!</p>
+		<p id="legend">
+			<span class="correct">&#9899 = a correct number is in the correct spot</span><br>
+			<span class="almost">&#9899 = a correct number is in the wrong spot</span><br>
+			<span class="incorrect">&#9899 = wrong number</span><br>
+		</p>
+		<select id='1' class="Guess">
+		</select>
+		<select id='2' class="Guess">
+		</select>
+		<select id='3' class="Guess">
+		</select>
+		<select id='4' class="Guess">
+		</select>
+		<button id="submit" type="button">Submit</button>
+		<p id="target">There's nothing here yet.</p>
+		<p id="answer" hidden></p>
+		<button id="solutionToggle" type="button">Show/Hide Answer</button>
+		<button id="logToggle" type="button">Show/Hide Log</button>
+		<div id="log" hidden></div>
+	</body>
+<html>
