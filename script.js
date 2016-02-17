@@ -112,16 +112,6 @@ $(document).ready(function(){
 	// Event handler for showing solution
 	$("#solutionToggle").click(function(){
 		$("#answer").toggle();
-/* 		if($("#answer").attr("hidden") == true)
-		{
-			$("#answer").attr("hidden",false);
-			$("#solution").text("Hide Answer");			
-		}
-		else
-		{
-			$("#answer").attr("hidden",true);
-			$("#solution").text("Show Answer");	
-		} */
 	});
 	
 	// Event handler for showing log
