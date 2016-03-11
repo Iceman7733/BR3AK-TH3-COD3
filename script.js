@@ -12,7 +12,7 @@ $(document).ready(function(){
 	var code = [];
 	for(i = 0; i <= 3; i++)
 	{
-		code[i] = Math.floor(Math.random() * 10)
+		code[i] = getRand(0, 9)
 	}
 	
 	// For debugging, show the answer in the paragraph below
@@ -119,3 +119,8 @@ $(document).ready(function(){
 		$("#log").toggle();
 	})
 });
+
+function getRand(start, end){
+	range = end - start + 1
+	return start + Math.floor(Math.random() * range)
+}

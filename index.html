@@ -14,6 +14,11 @@
 			<span class="correct">&#9899 = a correct number is in the correct spot</span><br>
 			<span class="almost">&#9899 = a correct number is in the wrong spot</span><br>
 			<span class="incorrect">&#9899 = wrong number</span><br>
+			Note: the order of the cirlces in the log do not correspond to the order of the numbers.<br>
+			Green circles will always be first, followed by yellow, then red. For instance, a green <br>
+			circle followed by a yellow circle and two red circles means one of your numbers is correct<br>
+			AND in the correct spot, one number is correct but in the wrong spot, and two numbers are<br>
+			completely wrong.
 		</p>
 		<select id='1' class="Guess">
 		</select>
@@ -28,6 +33,6 @@
 		<p id="answer" hidden></p>
 		<button id="solutionToggle" type="button">Show/Hide Answer</button>
 		<button id="logToggle" type="button">Show/Hide Log</button>
-		<div id="log" hidden></div>
+		<div id="log"></div>
 	</body>
 <html>
