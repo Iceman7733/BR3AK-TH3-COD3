@@ -94,15 +94,15 @@ $(document).ready(function(){
 			var log = "<br>" + guesses + ")";
 			for(i = 0; i < numCorrect; i++)
 			{
-				log += "<span class=\"correct\">&#9899</span>"
+				log += "<span class=\"dot correctDot\"></span>"
 			}
 			for(i = 0; i < numAlmost; i++)
 			{
-				log += "<span class=\"almost\">&#9899</span>"
+				log += "<span class=\"dot almostDot\"></span>"
 			}
 			for(i = 0; i < code.length - (numCorrect + numAlmost); i++)
 			{
-				log += "<span class=\"incorrect\">&#9899</span>"
+				log += "<span class=\"dot incorrectDot\"></span>"
 			}
 			log += "<span> " + guess.join('-') + "</span>";
 			$("#log").prepend(log);
