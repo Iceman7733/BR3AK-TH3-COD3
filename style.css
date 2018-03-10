@@ -9,10 +9,29 @@ body {
 	color: green;
 }
 
+.correctDot {
+	background-color: green;
+}
+
+.almostDot{
+	background-color: yellow;
+}
+
+.incorrectDot {
+	background-color: red;
+}
+
 .almost {
 	color: yellow;
 }
 
 .incorrect {
 	color: red;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
 }
